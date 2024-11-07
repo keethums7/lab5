@@ -1,0 +1,123 @@
+/*
+* name: Keith Wangler
+* date: 11/05/2024
+*/
+
+/*
+* aside {
+* }
+*/
+
+body {
+    background-color: rgba(255, 10, 10, .6);
+    font-family: monospace;
+    height: auto;
+    margin: 0px auto;
+    width: 80%;
+}
+
+h1 {
+    color: chartreuse;
+    font-size: 3em;
+    margin: 1em;
+    text-shadow: -1px -1px black, 1px 1px black, 1px -1px black, -1px 1px black;
+}
+
+p {
+    background-color: white;
+    color: black;
+}
+
+/* .revLink is the class for the navigation links in index.html */
+
+.revLink {
+    background-color: magenta;
+    border: 1px black solid;
+    border-radius: .5em;
+    box-shadow: 3px 3px black;
+    color: white;
+    float: left;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 1em;
+    padding: 1.5em;
+    text-shadow: -1px -1px black, 1px 1px black, 1px -1px black, -1px 1px black;
+    text-decoration: none;
+}
+
+.revLink:hover {
+    border: 2px black solid;
+    box-shadow: none;
+}
+
+.revLink:active {
+    background-color: lightpink;
+    color: lightcoral;
+}
+
+#stressBtn {
+    background-color: chartreuse;
+    border: 2px black solid;
+    bottom: 30%;
+    clear: left;
+    font-size: 2em;
+    left: 20%;
+    padding: 1em;
+    position: absolute;
+}
+
+#stressBtn:active {
+    display: none;
+}
+
+
+#stressMsg {
+    bottom: 30%;
+    font-size: 2em;
+    left: 20%;
+    position: absolute;
+    z-index: -1;
+}
+
+
+.homeLink {
+    background-color: magenta;
+    border: 1px black solid;
+    border-radius: .5em;
+    box-shadow: 3px 3px black;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 1em;
+    padding: 1em;
+    text-shadow: -1px -1px black, 1px 1px black, 1px -1px black, -1px 1px black;
+    text-decoration: none;
+}
+
+/* .homeLink is the home navigation link button on each review .html page */
+.homeLink:hover {
+    border: 2px black solid;
+    box-shadow: none;
+}
+
+.homeLink:active {
+    background-color: lightpink;
+    color: lightcoral;
+}
+
+/* .moviePoster is the class for the figure elem in each review .html page */
+
+.moviePoster img {
+    border: 2px solid white;
+    border-radius: .5em;
+    height: 480px;
+    margin: 1em;
+    padding: 1em;
+    width: auto;
+}
+
+.container {
+    background-color: whitesmoke;
+    border: 2px solid black;
+    padding: 1em;
+}
